@@ -70,7 +70,6 @@ class _HomeUiState extends State<HomeUi> {
     });
   }
 
-  // ================= CLEAR =================
   void clearData() {
     distanceController.clear();
     timeController.clear();
@@ -96,9 +95,7 @@ class _HomeUiState extends State<HomeUi> {
                   "assets/images/taxi.png",
                   height: 200,
                 ),
-
                 const SizedBox(height: 5),
-
                 const Text(
                   "คำนวณค่าแท็กซี่",
                   style: TextStyle(
@@ -107,10 +104,7 @@ class _HomeUiState extends State<HomeUi> {
                     color: Colors.orange,
                   ),
                 ),
-
                 const SizedBox(height: 20),
-
-                // ===== INPUT CARD =====
                 Container(
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
@@ -179,9 +173,7 @@ class _HomeUiState extends State<HomeUi> {
                     ],
                   ),
                 ),
-
                 const SizedBox(height: 18),
-
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(18),
@@ -216,7 +208,6 @@ class _HomeUiState extends State<HomeUi> {
           ),
         ),
       ),
-      
     );
   }
 }
